@@ -3,7 +3,7 @@ cask "kh" do
   name "kh"
   desc "KeeperHub CLI -- manage workflows, executions, and Web3 automation"
   homepage "https://github.com/keeperhub/cli"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "kh" do
   on_macos do
     on_intel do
       url "https://github.com/KeeperHub/cli/releases/download/v#{version}/kh_#{version}_darwin_amd64.tar.gz"
-      sha256 "37cd21c52d3e59a93a43c5e5d74f8d208c759abf45f24cba6ca33e40e09f1c7d"
+      sha256 "cfdcb4b024888c16bcfaedd49021db3a512248716cc795c944b2a51b8aee24ba"
     end
     on_arm do
       url "https://github.com/KeeperHub/cli/releases/download/v#{version}/kh_#{version}_darwin_arm64.tar.gz"
-      sha256 "39ea92df25dee80bb976013baa36461e476aab95284e6928964bd85f2b15c8c1"
+      sha256 "b868851282e1da26c7dc7e4b68482b1e926ab65d4a8ae8fd797ebe4f82f42261"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/KeeperHub/cli/releases/download/v#{version}/kh_#{version}_linux_amd64.tar.gz"
-      sha256 "3c96b29da23152f328ffac3cc04b70d147f98722b5b6f46e0f59d75f49e2abca"
+      sha256 "c93dc3ebf377eb8d337332d670b637882072e168f918a5accae840f09e9c77cf"
     end
     on_arm do
       url "https://github.com/KeeperHub/cli/releases/download/v#{version}/kh_#{version}_linux_arm64.tar.gz"
-      sha256 "36552ab1548fc837b6a0c5e93a242246ee740fda2934b86bcec505f6e96e9a44"
+      sha256 "f3ad59e38641f81f1902d48438d4c869c2ee0e4c79e63e50e7206701af337370"
     end
   end
 
